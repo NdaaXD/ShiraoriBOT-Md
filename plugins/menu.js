@@ -28,7 +28,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭────ꕥ %me ꕥ────
+╭────ꕥ NdaaBotz ꕥ────
 │✾ Version: %version
 │✾ Library: Baileys-MD
 │✾ Mode: ${global.opts['self'] ? 'Self' : 'publik'}
@@ -53,8 +53,7 @@ const defaultMenu = {
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+NdaaBotz
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
